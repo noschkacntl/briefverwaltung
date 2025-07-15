@@ -47,7 +47,7 @@ pip install pyinstaller
 Wechsle in den Ordner, in dem `main.py` liegt, und führe aus:
 
 ```bash
-python -m PyInstaller --noconsole --onefile --add-data "style_minimal.qss;." main.py
+python -m PyInstaller --noconsole --onefile --add-data "style.qss;." main.py
 ```
 
 ### 3. Ergebnis
